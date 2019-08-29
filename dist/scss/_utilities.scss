@@ -85,9 +85,9 @@
   }
 
   &.btn-dark {
-    @include set-background($primary-color);
+    @include set-background($dark-color);
     &:hover {
-      background: lighten($primary-color, 5%);
+      background: lighten($dark-color, 5%);
     }
   }
 

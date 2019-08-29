@@ -37,14 +37,11 @@
     <section class="container">
       <h1 class="large text-primary">Add an Experience</h1>
       <p class="lead">
-        <i class="fas fa-code-branch"></i> Add any dev positions you had in the
-        past Text
+        <i class="fas fa-code-branch"></i>
+        Add any dev positions you had in the past
       </p>
       <small>*= required fields</small>
       <form class="form">
-        <div class="form-group">
-          <input type="text" placeholder="" name="" required />
-        </div>
         <div class="form-group">
           <input type="text" placeholder="* Job Title" name="title" required />
         </div>
@@ -68,6 +65,17 @@
             Current Job
           </p>
         </div>
+        <div class="form-group">
+          <textarea
+            name="description"
+            id=""
+            cols="30"
+            rows="5"
+            placeholder="Job Description"
+          ></textarea>
+        </div>
+        <input type="submit" class="btn btn-primary my-1" />
+        <a href="dashboard.html" class="btn my-1">Go Back</a>
       </form>
     </section>
   </body>
